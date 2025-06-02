@@ -6,7 +6,7 @@ This analysis was conducted using Wireshark to inspect various types of network 
 
 ## Files Included
 - `summary.txt`: A detailed summary of the observed traffic and explanation of protocols.
-- `README.md`: This file, explaining the analysis process and contents.
+- `task-5-summary`: This file, displaying the contents.
 
 ## Tools Used
 - Wireshark (on Kali Linux)
