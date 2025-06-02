@@ -6,7 +6,8 @@ This analysis was conducted using Wireshark to inspect various types of network 
 
 ## Files Included
 - `summary.txt`: A detailed summary of the observed traffic and explanation of protocols.
-- `task-5-summary`: This file, displaying the contents.
+- `results`: This file display the contents.
+- task-5-capture: This is the pcap file in which the wireshark results are captured, its in the results file.
 
 ## Tools Used
 - Wireshark (on Kali Linux)
