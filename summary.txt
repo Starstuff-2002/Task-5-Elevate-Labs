@@ -1,0 +1,29 @@
+Wireshark Traffic Analysis Summary
+
+1. **ARP (Address Resolution Protocol)**
+   - Purpose: Resolves IP addresses to MAC addresses in a local network.
+   - Observed: ARP requests and replies. Typical for LAN operations.
+
+2. **ICMP (Internet Control Message Protocol)**
+   - Purpose: Used for diagnostic tools like ping.
+   - Observed: Echo request and reply with 8.8.8.8, confirming connectivity.
+
+3. **TCP (Transmission Control Protocol)**
+   - Purpose: Establishes reliable connections through a 3-way handshake (SYN, SYN-ACK, ACK).
+   - Observed: Handshakes, data transfers, and session terminations (FIN, ACK). All standard.
+   - Retransmissions: Detected, indicating minor packet loss or network latency.
+
+4. **DNS (Domain Name System)**
+   - Purpose: Resolves domain names to IP addresses.
+   - Observed: Standard queries and responses to resolve hostnames.
+
+5. **HTTP (HyperText Transfer Protocol)**
+   - Purpose: Used for transmitting web pages and data in plaintext.
+   - Observed: Normal requests and responses, possibly including GET/POST.
+
+6. **HTTPS / TLS (Transport Layer Security)**
+   - Purpose: Secure version of HTTP, using TLS for encryption.
+   - Observed: TLS handshakes (`Client Hello`) on port 443, used for secure communication.
+
+Conclusion:
+All captured traffic is consistent with expected behavior for a machine browsing the internet and communicating with services. Retransmissions indicate only slight issues, not critical.
